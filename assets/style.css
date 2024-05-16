@@ -1,0 +1,81 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header, main, footer {
+  margin-bottom: 40px;
+}
+
+header, main, footer {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+header {
+  background-color: lightcyan;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 8px;
+}
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: lightcyan;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px
+}
+
+.portfolio-items {
+  display: flex;
+
+}
+
+.portfolio-itmes figure {
+
+}
+
+.portfolio-items figure img {
+
+}
+
+@media screen and (min-width: 769px) {
+  body {
+      background-color: red;
+  }
+  .portfolio-items {
+      display: flex;
+  
+  }
+  
+  .portfolio-itmes figure {
+  
+  }
+  
+  .portfolio-items figure img {
+      
+  }
+}
