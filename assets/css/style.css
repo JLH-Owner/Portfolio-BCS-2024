@@ -9,16 +9,21 @@ body {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+ max-height: 800px;
+ max-width: 100%
 }
 
-header, main, footer {
+header, main {
+  margin-bottom: 40px;
+}
+
+header, main {
   margin-bottom: 40px;
 }
 
 header, main, footer {
   padding: 20px;
+  margin-bottom: 40px;
 }
 
 section {
@@ -30,12 +35,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px
 }
 
 nav {
   display: flex;
   gap: 8px;
 }
+
 main {
   max-width: 960px;
   margin: 0 auto;
@@ -46,25 +53,58 @@ footer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 8px
+  gap: 8px;
+}
+
+.about-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.about-itmes figure {
+  width: calc(50% - 4px);
+  aspect-ratio: 1/1;
+}
+
+.about-items figure img {
+  height: 100%;
+  width: auto;
+}
+
+.about-itmes figure:first-of-type {
+  width: 100%;
+  aspect-ratio: 16/9;
 }
 
 .portfolio-items {
   display: flex;
-
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .portfolio-itmes figure {
-
+  width: calc(50% - 10px);
+  aspect-ratio: 1/1;
 }
 
 .portfolio-items figure img {
+  height: 100%;
+  width: auto;
+}
 
+.portfolio-itmes figure:first-of-type {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.portfolio-itmes figure:first-of-type img {
+  
 }
 
 @media screen and (min-width: 769px) {
   body {
-      background-color: red;
+      background-color: blueviolet;
   }
   .portfolio-items {
       display: flex;

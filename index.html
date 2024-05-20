@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sally's Portfolio</title>
 </head>
 <body>
     <header>
-        Sally Sanders <img src="assets\Images\Sally-Avatar.jpg" alt="Avatar">
+        <h1>Sally Sanders</h1> 
+        <img src="assets\Images\Sally-Avatar.jpg" alt="Avatar">
         <nav>
             <a href="#about">About</a>
             <a href="#portfolio">Portfolio</a>
@@ -16,28 +17,39 @@
     </header>
     <main>
         <section id="about" class="about">
-            <figure>
-                <img src="assets\Images\broadway-bridge-skyline-portland-oregon.jpg" alt="Portland, Oregon">
-                <p>
-                    I live in Portland, Oregon. I like to fish, spend time with good friends and family. I have two dogs, named Hershey and Coconut. I love being in nature and learning new things. I am currently in a Coding Bootcamp to learn to be a full-stack web-developer. 
-                </p>
-            </figure>
+            <h2>About</h2>
+            <div class="about-items">
+                <figure>
+                    <img src="assets\Images\fishing.webp" alt="Woman fishing">
+                    <img src="assets\Images\cooking.jpg" alt="Food-Cooking">
+                    <img src="assets\Images\dogs.webp" alt="two dogs">
+                    <p>
+                        I live in Portland, Oregon. I like cooking, fishing, spending time with family and friends, and going on nature walks with my two dogs. My dogs' names are Hershey and Coconut. I love learning new things. So, I am currently in a Coding Bootcamp to learn to be a full-stack web-developer. 
+                    </p>
+                </figure>
+            </div>
         </section>
         <section id="portfolio" class="portfolio">
             <h2>Portfolio</h2>
             <div class="portfolio-items">
-            <figure>
-                <img src="assets\Images\software-development.jpg" alt="Software Deveolopment Image">
-            </figure>
-            <figure>
-                <img src="assets\Images\search-engine-optimization.jpg" alt="Search Engine Optimazation Image">
-            </figure>
+                <figure>
+                    <img src="assets\Images\seo.jpg" alt="Search Engine Optimazation Image">
+                    <figcaption>Search Engine Optimization</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets\Images\software-development.jpg" alt="Software Deveolopment Image">
+                    <figcaption>Software Development</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets\Images\beach.jpg" alt="Beach Image">
+                    <figcaption>Vacation Highlights</figcaption>
+                </figure>
             </div>
         </section>
-    <footer id="contact" class="contact">
-        <a href="https://jlh-owner.github.io/html-seo-refactor/#search-engine-optimization">My Website</a>
-        <a href="https://github.com/JLH-Owner">GitHub</a>
-        <a tel="555.555.5555">Telephone</a>
+    <footer id="contact" class="contact">Contact Me:
+        <a href="https://www.linkedin.com/">LinkedIn</a>
+        <a href="https://github.com/JLH-Owner/portfolio-bcs-2024r">GitHub</a>
+        <a href="tel:+1 555 555 5555">Tel: 555.555.5555</a>
     </footer>
     </main>
 </html>
